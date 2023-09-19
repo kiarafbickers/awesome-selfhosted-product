@@ -53,10 +53,9 @@
 - [Placeholder](#) - Placeholder.
 
 ### Product Analytics
-- [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/countly)) `AGPL-3.0` `Nodejs/Docker`
-- [PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host (alternative to Mixpanel/Amplitude/Heap/HotJar/Optimizely). ([Source Code](https://github.com/posthog/posthog)) `MIT` `Python`
-- [OpenReplay](https://github.com/openreplay/openreplay) - Developer-friendly, self-hosted session replay.
-- [Cronitor](https://cronitor.io/real-user-monitoring?ref=panelbear) - Description not provided.
+- [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/Countly/countly-server)) `AGPL-3.0` `Docker/Nodejs`
+- [PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host (alternative to Mixpanel/Amplitude/Heap/HotJar/Optimizely). ([Source Code](https://github.com/posthog/posthog)) `MIT` `Docker/Python`
+- [OpenReplay](https://openreplay.com/) - Developer-friendly, self-hosted session replay. ([Source Code](https://github.com/openreplay/openreplay)) `MIT` `Python`
 
 ### Web Traffic Analytics
 - [Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. ([Demo](http://demo.ackee.electerious.com), [Source Code](https://github.com/electerious/Ackee)) `MIT` `Nodejs/Docker/K8S`
@@ -64,7 +63,7 @@
 - [Fathom Lite](https://github.com/usefathom/fathom) - A simple and privacy-focused web analytics (alternative to Google Analytics). `MIT` `Go/Docker`
 - [GoatCounter](https://www.goatcounter.com) - Easy web statistics without tracking of personal data. ([Source Code](https://github.com/arp242/goatcounter)) `EUPL-1.2` `Go`
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy. ([Source Code](https://github.com/matomo-org/matomo)) `GPL-3.0` `PHP`
-- [Often](https://www.offen.dev/) - Often Fair Web Analytics.
+- [Often](https://www.offen.dev/) - Often Fair Web Analytics. ([Source Code](https://github.com/offen/offen)) 
 - [Plausible Analytics](https://plausible.io/) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics. ([Source Code](https://github.com/plausible/analytics/)) `MIT` `Elixir`
 - [PoeticMetric](https://www.poeticmetric.com) - Free as in freedom, open source, privacy-first and regulation-compliant web analytics tool. ([Demo](https://www.poeticmetric.com/s?d=www.poeticmetric.com), [Source Code](https://github.com/th0th/poeticmetric)) `AGPL-3.0` `Docker`
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. `Apache-2.0` `Python/Docker`
@@ -78,10 +77,9 @@
 
 ### Community Discussion Platforms
 - [Talkyard](https://www.talkyard.io/) - Create a community, where your users can suggest ideas and get questions answered. And have friendly open-ended discussions and chat (Slack/StackOverflow/Discourse/Reddit/Disqus hybrid). ([Demo](https://www.talkyard.io/forum/latest), [Source Code](https://github.com/debiki/talkyard)) `AGPL-3.0` `Docker/Scala`
-- [Forem](https://www.forem.com/) - Forem is open source software for building communities. Communities for peers, customers, fanbases, families, friends, and more.
+- [Forem](https://www.forem.com/) - Forem is open source software for building communities. Communities for peers, customers, fanbases, families, friends, and more. ([Source Code](https://github.com/forem/forem)) `MIT` `Docker`
 - [Flarum](https://flarum.org) - Delightfully simple forums. Flarum is the next-generation forum software that makes online discussion fun again. ([Source Code](https://github.com/flarum/flarum)) `MIT` `PHP`
-- [Twake](https://twake.app/) - Twake is a secure open source collaboration platform to improve organizational productivity.
-- [Crello](https://github.com/Ninad99/crello) - Crello is a web-based Kanban-style list-making application, inspired by Trello. Built with Angular and Firebase.
+- [Twake](https://twake.app/) - Twake is a secure open source collaboration platform to improve organizational productivity. ([Source Code](https://github.com/linagora/Twake)) `MIT` `Docker`
 - [Focalboard](https://www.focalboard.com/) - Define, organize, track and manage work across individuals and teams (alternative to Trello, Notion, and Asana). ([Source Code](https://github.com/mattermost/focalboard), [Clients](https://www.focalboard.com/download/personal-edition/desktop/)) `MIT/AGPL-3.0/Apache-2.0` `Nodejs/Go`
 - [Lavagna](https://lavagna.io) - Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use. ([Source Code](https://github.com/digitalfondue/lavagna)) `GPL-3.0` `Java`
 - [Planka](https://planka.app/) - Realtime kanban board for workgroups (alternative to Trello). ([Demo](https://plankanban.github.io/planka/#/), [Source Code](https://github.com/plankanban/planka)) `AGPL-3.0` `Nodejs`
@@ -94,10 +92,10 @@
 [Idea Management] is the practice of capturing important pieces of information in a systematic way.
 
 ### Notetaking (Notion and Evernote Alternatives)
-- [Notesnook](https://notesnook.com/) - Open source. End-to-end encrypted. Write notes with privacy, no spying, no tracking.
+- [Notesnook](https://notesnook.com/) - Open source. End-to-end encrypted. Write notes with privacy, no spying, no tracking. ([Source Code](https://github.com/streetwriters/notesnook)) `GNU-3.0` `React`
 
 ### Second Brain Tools
-- [Quivr](https://www.quivr.app/) - 🧠 Your Second Brain supercharged by Generative AI 🧠. Dump files and chat with a personal assistant using GPT 3.5/4, Private, Anthropic, VertexAI, LLMs.
+- [Quivr](https://www.quivr.app/) - 🧠 Your Second Brain supercharged by Generative AI 🧠. Dump files and chat with a personal assistant using GPT 3.5/4, Private, Anthropic, VertexAI, LLMs. ([Source Code](https://github.com/StanGirard/quivr)) `GNU-3.0` `Docker`
 
 ### Document Management
 - [Teedy](https://teedy.io/) - Lightweight document management system packed with all the features you can expect from big expensive solutions (Ex SismicsDocs). ([Demo](https://demo.teedy.io/), [Source Code](https://github.com/sismics/docs)) `GPL-2.0` `Docker/Java`
@@ -161,8 +159,8 @@
 - [Wekan](https://wekan.github.io/) - Open-source Trello-like kanban. ([Source Code](https://github.com/wekan/wekan)) `MIT` `Nodejs`
 - [Kanboard](https://kanboard.org/) - Simple and open source visual task board. ([Source Code](https://github.com/kanboard/kanboard)) `MIT` `PHP`
 - [Taiga](https://www.taiga.io/) - Agile Project Management Tool based on the Kanban and Scrum methods. ([Source Code](https://github.com/kaleidos-ventures)) `MPL-2.0` `Docker/Python/Nodejs`
-- [taskcafe](https://github.com/JordanKnott/taskcafe) - An open source project management tool with Kanban boards.
-- [Restyaboard](https://github.com/RestyaPlatform/board) - Trello like kanban board. Based on Restya platform.
+- [taskcafe](https://github.com/JordanKnott/taskcafe) - An open source project management tool with Kanban boards. `MIT` `Docker/Golang`
+- [Restyaboard](https://github.com/RestyaPlatform/board) - Trello like kanban board. Based on Restya platform. `OSL-3` `Docker/Golang`
 
 
 ## Rapid Development Tools (Low Code/No Code)
