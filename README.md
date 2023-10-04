@@ -209,7 +209,7 @@
 - [airbyte](https://github.com/rudderlabs/airbyte) - Open-source platform for data replication.
 - [Activepieces](https://www.activepieces.com) - No-code business automation tool like Zapier or Tray. For example, you can send a Slack notification for each new Trello card. ([Source Code](https://github.com/activepieces/activepieces)) `MIT` `Typescript`
 - [Automatisch](https://automatisch.io) - Business automation tool that lets you connect different services like Twitter, Slack, and more to automate your business processes (alternative to Zapier). ([Source Code](https://github.com/automatisch/automatisch)) `AGPL-3.0` `Docker`
--- [Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. `MIT` `Ruby`
+- [Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. `MIT` `Ruby`
 - [n8n](https://n8n.io/) - Free and source-available workflow automation tool.
 - [beehive](https://github.com/muesli/beehive) - A flexible event/agent & automation system.
 - [flogo](https://www.flogo.io/) - Open source ecosystem for serverless functions and apps.
