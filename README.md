@@ -1,3 +1,23 @@
+# Awesome-Selfhosted-Product
+
+![Ship](ship.png)
+
+[![Awesome](https://github.com/awesome-selfhosted/awesome-selfhosted/raw/master/_static/awesome.png)](https://github.com/sindresorhus/awesome)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![Watch on GitHub](https://img.shields.io/github/watchers/kiarafbickers/awesome-selfhosted-product.svg?style=social&label=Watch)](https://github.com/kiarafbickers/awesome-selfhosted-product/watchers)
+[![Star on GitHub](https://img.shields.io/github/stars/kiarafbickers/awesome-selfhosted-product.svg?style=social&label=Stars)](https://github.com/kiarafbickers/awesome-selfhosted-product/stargazers)
+[![Follow](https://img.shields.io/twitter/follow/paralect.svg?style=social&label=Follow)](https://twitter.com/kiarabickers)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/paralect/ship.svg?style=social)](https://twitter.com/intent/tweet?text=I%2)
+
+Self-hosting is the practice of hosting and managing applications on your own server(s) instead of consuming from [SaaS](https://www.gnu.org/philosophy/who-does-that-server-really-serve.html) providers.
+
+This is a list of [Free](https://en.wikipedia.org/wiki/Free_software) Software [network services](https://en.wikipedia.org/wiki/Network_service) and [web applications](https://en.wikipedia.org/wiki/Web_application) which can be hosted on your own server(s). The list is inspired by [Awesome Self-hosted](https://github.com/awesome-selfhosted/awesome-selfhosted), with a focus on app for product people.
+
+The Awesome Self-hosted Product is a toolkit for makers to ship better products faster 🚀.
+
+---
+
 ## Table of contents
 
 - [Analytics Tools](#analytics-tools)
