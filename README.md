@@ -1,4 +1,4 @@
-# Awesome-Selfhosted-Product
+# awesome-selfhosted-product
 
 ![Ship](ship.png)
 
@@ -16,68 +16,55 @@ This is a list of [Free](https://en.wikipedia.org/wiki/Free_software) Software [
 
 The Awesome Self-hosted Product is a toolkit for makers to ship better products faster 🚀.
 
----
+--------------------
 
 ## Table of contents
 
 - [Analytics Tools](#analytics-tools)
-  - [Business Analytics](#business-analytics)
-  - [Marketing Analytics](#marketing-analytics)
   - [Product Analytics](#product-analytics)
   - [Web Traffic Analytics](#web-traffic-analytics)
-- [Collaboration & Communication](#collaboration-communication)
-  - [Customer Support & Helpdesk](#customer-support-helpdesk)
-  - [Documentation & Knowledge Sharing](#documentation-knowledge-sharing)
+- [Collaboration and Communication](#collaboration-and-communication)
+  - [Community Discussion Platforms](#community-discussion-platforms)
+- [Developer Tools](#developer-tools)
+  - [API Development](#api-development)
+  - [Software Development Kits (SDK)](#software-development-kits)
 - [Idea Management Software](#idea-management-software)
+  - [Document Management](#document-management)
   - [Notetaking](#notetaking)
   - [Second Brain Tools](#second-brain-tools)
-- [Lifecycle Management Tools](#lifecycle-management-tools)
+- [Machine Learning](#machine-learning)
 - [Marketing Tools](#marketing-tools)
   - [Email Automation](#email-automation)
   - [Social Media Automation](#social-media-automation)
-- [Product Management](#product-management)
-  - [Feature Documentation](#feature-documentation)
-  - [Roadmap Development](#roadmap-development)
 - [Project Management](#project-management)
-  - [Sprint Planning](#sprint-planning)
-  - [Task / Ticketing Systems](#task-ticketing-systems)
+  - [Task and Ticketing Systems](#task-and-ticketing-systems)
   - [Kanban Boards](#kanban-boards)
 - [Rapid Development Tools (Low Code/No Code)](#rapid-development-tools)
-  - [Backend / Database UI Tools](#backend-tools-database-ui)
+  - [Backend Database UI Tools](#backend-database-ui-tools)
+  - [Blog Builders](#blog-builders)
   - [Content Management Systems (CMS)](#content-management-systems)
   - [E-commerce Platforms](#e-commerce-platforms)
-  - [Event / Workflow Automation](#event-workflow-automation)
-  - [Personal Website/Blog Builders](#personal-website-blog-builders)
-  - [Web App Builders](#web-app-builders)
   - [Pluggable Application Components](#pluggable-application-components)
-- [Sales Tools](#sales-business)
+  - [Web App Builders](#web-app-builders)
+  - [Workflow Automation](#workflow-automation)
+- [Sales and Business Tools](#sales-and-business-tools)
+  - [Business Intelligence](#business-intelligence)
   - [Customer Relationship Management (CRM)](#customer-relationship-management-crm)
-- [Testing & Experimentation](#testing-experimentation)
-- [User Research Tools](#user-research-tools)
 - [UX Design Tools](#ux-design-tools)
-
+  - [Image Optimization](#image-optimization)
 
 --------------------
 
-
 ## Analytics Tools
 
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Analytics Tools](#analytics-tools) provide a comprehensive view into user behavior and interactions across various platforms. They aid in optimizing user experience, improving overall product performance, and informing data-driven decisions.
-
-### Business Analytics
-- [Placeholder](#) - Placeholder.
-
-### Marketing Analytics
-- [Placeholder](#) - Placeholder.
-
 ### Product Analytics
+
 - [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/Countly/countly-server)) `AGPL-3.0` `Docker/Nodejs`
 - [PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host (alternative to Mixpanel/Amplitude/Heap/HotJar/Optimizely). ([Source Code](https://github.com/posthog/posthog)) `MIT` `Docker/Python`
 - [OpenReplay](https://openreplay.com/) - Developer-friendly, self-hosted session replay. ([Source Code](https://github.com/openreplay/openreplay)) `MIT` `Python`
 
 ### Web Traffic Analytics
+
 - [Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. ([Demo](http://demo.ackee.electerious.com), [Source Code](https://github.com/electerious/Ackee)) `MIT` `Nodejs/Docker/K8S`
 - [Aptabase](https://aptabase.com/) - Open source, privacy first and simple analytics for mobile and desktop apps. ([Source Code](https://github.com/aptabase/aptabase)) `AGPL-3.0` `Docker`
 - [Fathom Lite](https://github.com/usefathom/fathom) - A simple and privacy-focused web analytics (alternative to Google Analytics). `MIT` `Go/Docker`
@@ -88,14 +75,12 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [PoeticMetric](https://www.poeticmetric.com) - Free as in freedom, open source, privacy-first and regulation-compliant web analytics tool. ([Demo](https://www.poeticmetric.com/s?d=www.poeticmetric.com), [Source Code](https://github.com/th0th/poeticmetric)) `AGPL-3.0` `Docker`
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. `Apache-2.0` `Python/Docker`
 - [Umami](https://umami.is/) - Simple, fast, privacy-focused alternative to Google Analytics. ([Demo](https://app.umami.is/share/8rmHaheU/umami.is), [Source Code](https://github.com/umami-software/umami)) `MIT` `Nodejs/Docker`
+- [Uptime Kuma](https://uptime.kuma.pet/) - A fancy self-hosted monitoring tool. [Source Code](https://github.com/louislam/uptime-kuma)) `MIT` `Nodejs/Docker`
 
-## Collaboration & Communication
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Collaboration & Communication](https://en.wikipedia.org/wiki/Collaborative_software) tools enhance the effectiveness of team interactions and exchange of information.
+## Collaboration and Communication
 
 ### Community Discussion Platforms
+
 - [Talkyard](https://www.talkyard.io/) - Create a community, where your users can suggest ideas and get questions answered. And have friendly open-ended discussions and chat (Slack/StackOverflow/Discourse/Reddit/Disqus hybrid). ([Demo](https://www.talkyard.io/forum/latest), [Source Code](https://github.com/debiki/talkyard)) `AGPL-3.0` `Docker/Scala`
 - [Forem](https://www.forem.com/) - Forem is open source software for building communities. Communities for peers, customers, fanbases, families, friends, and more. ([Source Code](https://github.com/forem/forem)) `MIT` `Docker`
 - [Flarum](https://flarum.org) - Delightfully simple forums. Flarum is the next-generation forum software that makes online discussion fun again. ([Source Code](https://github.com/flarum/flarum)) `MIT` `PHP`
@@ -105,76 +90,71 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Planka](https://planka.app/) - Realtime kanban board for workgroups (alternative to Trello). ([Demo](https://plankanban.github.io/planka/#/), [Source Code](https://github.com/plankanban/planka)) `AGPL-3.0` `Nodejs`
 - [Answer](https://answer.dev/) - An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more. ([Source Code](https://github.com/answerdev/answer)) `Apache-2.0` `Docker/Go`
 
+## Developer Tools
+
+### API Development
+*Postman Alternatives*
+
+- [Hoppscotch](https://hoppscotch.io/) - 👽 Open source API development ecosystem. ([Source Code](https://github.com/hoppscotch/hoppscotch)) `MIT` `Docker`
+
+### Software Development Kits
+
+- [Apprise](https://hub.docker.com/r/caronc/apprise) - Push Notifications that work with just about every platform! ([Source Code](https://github.com/caronc/apprise)) `MIT` `Python/Docker`
+
 ## Idea Management Software
 
-[`^        back to top        ^`](#awesome-selfhosted-product)
+### Document Management
 
-[Idea Management] is the practice of capturing important pieces of information in a systematic way.
+- [Teedy](https://teedy.io/) - Lightweight document management system packed with all the features you can expect from big expensive solutions (Ex SismicsDocs). ([Demo](https://demo.teedy.io/), [Source Code](https://github.com/sismics/docs)) `GPL-2.0` `Docker/Java`
 
-### Notetaking (Notion and Evernote Alternatives)
+### Notetaking 
+*Notion and Evernote Alternatives*
+
 - [Notesnook](https://notesnook.com/) - Open source. End-to-end encrypted. Write notes with privacy, no spying, no tracking. ([Source Code](https://github.com/streetwriters/notesnook)) `GNU-3.0` `React`
 
 ### Second Brain Tools
+
 - [Quivr](https://www.quivr.app/) - 🧠 Your Second Brain supercharged by Generative AI 🧠. Dump files and chat with a personal assistant using GPT 3.5/4, Private, Anthropic, VertexAI, LLMs. ([Source Code](https://github.com/StanGirard/quivr)) `GNU-3.0` `Docker`
 
-### Document Management
-- [Teedy](https://teedy.io/) - Lightweight document management system packed with all the features you can expect from big expensive solutions (Ex SismicsDocs). ([Demo](https://demo.teedy.io/), [Source Code](https://github.com/sismics/docs)) `GPL-2.0` `Docker/Java`
+## Machine Learning
 
-
-## Lifecycle Management Tools
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Lifecycle Management Tools](#lifecycle-management-tools) help manage the lifecycle of a product, ensuring efficient planning, design, manufacturing, service, and disposal.
-
-- [Placeholder](#) - Placeholder.
+- [pycaret](www.pycaret.org) - An open-source, low-code machine learning library in Python. ([Source Code](https://github.com/pycaret/pycaret)) `MIT` `Docker`
 
 ## Marketing Tools
 
-[`^        back to top        ^`](#awesome-selfhosted-product)
+### Email Automation
+*Mailchimp & ActiveCampaign Alternatives*
 
-[Marketing Tools](https://en.wikipedia.org/wiki/Marketing) are platforms and applications used to promote products or services, interact with customers, and drive sales.
-
-### Email Automation - Mailchimp & ActiveCampaign Alternatives
 - [Listmonk](https://listmonk.app/) - High performance, self-hosted newsletter and mailing list manager with a modern dashboard. ([Source Code](https://github.com/knadh/listmonk)) `AGPL-3.0` `Go/Docker`
 
-### Social Media Automation - Buffer & Hootsuite Alternatives
+### Social Media Automation
+*Buffer & Hootsuite Alternatives*
+
 - [Mixpost](https://mixpost.app/) - Self-hosted social media management software. Easily create, schedule, publish, and manage social media content in one place (alternative to Hootsuite, Buffer, and other social media tools). ([Source Code](https://github.com/inovector/MixpostApp)) `MIT` `PHP/Docker`
 - [Socioboard](https://github.com/socioboard/Socioboard-5.0) `⚠` - Social media management, analytics, and reporting platform supporting nine social media networks out-of-the-box. `GPL-3.0` `Nodejs`
 
-### Interactive Presentations - Slido, AhaSlides, Mentimeter Alternatives
+### Interactive Presentations
+*Slido, AhaSlides, Mentimeter Alternatives*
+
 - [Claper](https://claper.co/) - The ultimate tool to interact with your audience (alternative to Slido, AhaSlides and Mentimeter). ([Source Code](https://github.com/ClaperCo/Claper)) `GPL-3.0` `Elixir/Docker`
 
-### Link Shortener - TinyURL & Bitly Alternatives
+### Link Shortener
+*TinyURL & Bitly Alternatives*
+
 - [Kutt](https://kutt.it) - A modern URL shortener with support for custom domains. ([Source Code](https://github.com/thedevs-network/kutt)) `MIT` `Nodejs`
-
-## Product Management
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Product Management](#product-management) tools assist teams in defining the direction and strategy for their products, and in planning the steps to realize that vision.
-
-### [Feature Documentation](#feature-documentation)
-- [Placeholder](#) - Placeholder.
-
-### [Roadmap Development](#roadmap-development)
-- [Placeholder](#) - Placeholder.
-
+- [uourls](https://yourls.org/) - The de facto standard self hosted URL shortener in PHP. ([Source Code](https://github.com/YOURLS/YOURLS)) `MIT` `PHP/Docker`
 
 ## Project Management
 
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
 [Project Management](#project-management) tools assist teams in organizing tasks, managing projects, and ensuring efficient team collaboration.
 
-### Sprint Planning
-- [Placeholder](#) - Placeholder.
-
-### Task / Ticketing Systems - Jira, ClickUp, and Linear Alternatives
+### Task and Ticketing Systems
+*Jira, ClickUp, and Linear Alternatives*
 
 - [Leantime](https://leantime.io) - Leantime is a lean project management system for small teams and startups helping to manage projects from ideation through delivery. ([Source Code](https://github.com/leantime/leantime)) `GPL-2.0` `PHP`
 
-### Kanban Boards - Trello & Alternatives
+### Kanban Boards
+*Trello & Alternatives*
 
 - [Wekan](https://wekan.github.io/) - Open-source Trello-like kanban. ([Source Code](https://github.com/wekan/wekan)) `MIT` `Nodejs`
 - [Kanboard](https://kanboard.org/) - Simple and open source visual task board. ([Source Code](https://github.com/kanboard/kanboard)) `MIT` `PHP`
@@ -182,15 +162,11 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [taskcafe](https://github.com/JordanKnott/taskcafe) - An open source project management tool with Kanban boards. `MIT` `Docker/Golang`
 - [Restyaboard](https://github.com/RestyaPlatform/board) - Trello like kanban board. Based on Restya platform. `OSL-3` `Docker/Golang`
 
+## Rapid Development Tools
+*Low Code/No Code*
 
-## Rapid Development Tools (Low Code/No Code)
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Rapid Development Tools (Low Code/No Code)](#rapid-development-tools) offer developers and non-developers alike the tools to quickly prototype, build, and deploy applications with minimal manual coding.
-
-### Backend / Database UI Tools - Airtable Alternatives
-[Backend / Database UI Tools](#backend-tools-database-ui)
+### Backend Database UI Tools
+*Airtable Alternatives*
 
 - [Baserow](https://baserow.io/) - Create your own no-code database alternative to Airtable. ([Source Code](https://gitlab.com/bramw/baserow)) `MIT` `Docker`
 - [Bytebase](https://www.bytebase.com/) - Safe database schema change and version control for DevOps teams, supports MySQL, PostgreSQL, TiDB, ClickHouse, and Snowflake. ([Demo](https://demo.bytebase.com), [Source Code](https://github.com/bytebase/bytebase)) `MIT` `Docker/K8S/Go`
@@ -208,8 +184,12 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Grist](https://getgrist.com/) - Grist is a next-generation spreadsheet with relational structure, formula-based access control, and a portable, self-contained format (alternative to Airtable). ([Demo](https://docs.getgrist.com), [Source Code](https://github.com/gristlabs/grist-core)) `Apache-2.0` `Nodejs/Python`
 - [Chartbrew](https://chartbrew.com) - Web application that can connect directly to databases and APIs and use the data to create beautiful charts. ([Demo](https://app.chartbrew.com/live-demo), [Source Code](https://github.com/chartbrew/chartbrew)) `MIT` `Nodejs/Docker`
 
-### Content Management Systems (CMS)
-[Content Management Systems (CMS)](#content-management-systems)
+### Blog Builders
+*Medium Alternatives*
+
+- [btw](https://www.btw.so/) - Set up your personal blog in minutes.
+
+### Content Management Systems
 
 - [Tina](https://tina.io/) - Tina is a fully open-source headless CMS that supports Git.
 - [Payload CMS](https://payloadcms.com/) - Developer-first headless CMS and application framework. ([Demo](https://demo.payloadcms.com), [Source Code](https://github.com/payloadcms/payload)) `MIT` `Nodejs`
@@ -217,14 +197,27 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Wagtail](https://wagtail.io/) - Django content management system focused on flexibility and user experience. ([Source Code](https://github.com/wagtail/wagtail)) `BSD-3-Clause` `Python`
 
 ### E-commerce Platforms
-[E-commerce Platforms](#e-commerce-platforms)
 
 - [Evershop](https://evershop.io/) - NodeJS E-commerce Platform.
 - [Bagisto](https://bagisto.com/en/) - Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. ([Demo](https://demo.bagisto.com/), [Source Code](https://github.com/bagisto/bagisto)) `MIT` `PHP`
 
+### Pluggable Application Components
 
-### Event / Workflow Automation - Make, IFTTT, Zapier Alternatives
-[Event / Workflow Automation](#event-workflow-automation)
+- [react-trello](https://github.com/rcdexta/react-trello) - Pluggable components to add a kanban board to your application.
+- [Privoce](https://privoce.com/) - Provides the chat, widget (browser), bot components to you as SDKs, and all modules can run on your personal cloud server.
+
+
+### Web App Builders
+*Webflow, Retool and Softr Alternatives*
+
+- [Budibase](https://www.budibase.com) - Build and automate internal tools, admin panels, dashboards, CRUD apps, and more, in minutes (alternative to Outsystems, Retool, Mendix, Appian). ([Source Code](https://github.com/Budibase/budibase)) `GPL-3.0` `Nodejs`
+- [NocoBase](https://www.nocobase.com/) - NocoBase is a scalability-first, open-source no-code/low-code platform.
+- [Convertigo](https://www.convertigo.com/) - Enterprise grade Low Code / No Code platform.
+- [Saltcorn](https://github.com/saltcorn/saltcorn) - Free and open source no-code application builder.
+- [OpenBlocks](https://github.com/openblocks-dev/openblocks) - Open Source Retool Alternative.
+
+### Workflow Automation
+*Make, IFTTT, Zapier Alternatives*
 
 - [airbyte](https://github.com/rudderlabs/airbyte) - Open-source platform for data replication.
 - [Activepieces](https://www.activepieces.com) - No-code business automation tool like Zapier or Tray. For example, you can send a Slack notification for each new Trello card. ([Source Code](https://github.com/activepieces/activepieces)) `MIT` `Typescript`
@@ -238,77 +231,20 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Outerbridge](https://www.outerbridge.io/) - Automations for on-chain and off-chain applications.
 - [MindsDB](https://mindsdb.com/) - MindsDB is an open source self hosted AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries. ([Source Code](https://github.com/mindsdb/mindsdb)) `GPL-3.0` `Docker/Python`
 
-### Personal Website/Blog Builders - Medium Alternative
-[Personal Website/Blog Builders](#personal-website-blog-builders)
+## Sales and Business Tools
 
-- [btw](https://www.btw.so/) - Set up your personal blog in minutes.
-
-### Web App Builders - Webflow, Retool and Softr Alternatives
-[Web App Builders](#web-app-builders)
-
-- [Budibase](https://www.budibase.com) - Build and automate internal tools, admin panels, dashboards, CRUD apps, and more, in minutes (alternative to Outsystems, Retool, Mendix, Appian). ([Source Code](https://github.com/Budibase/budibase)) `GPL-3.0` `Nodejs`
-- [NocoBase](https://www.nocobase.com/) - NocoBase is a scalability-first, open-source no-code/low-code platform.
-- [Convertigo](https://www.convertigo.com/) - Enterprise grade Low Code / No Code platform.
-- [Saltcorn](https://github.com/saltcorn/saltcorn) - Free and open source no-code application builder.
-- [OpenBlocks](https://github.com/openblocks-dev/openblocks) - Open Source Retool Alternative.
-
-
-### Pluggable Application Components
-[Pluggable Application Components](#pluggable-application-components)
-
-- [react-trello](https://github.com/rcdexta/react-trello) - Pluggable components to add a kanban board to your application.
-- [Privoce](https://privoce.com/) - Provides the chat, widget (browser), bot components to you as SDKs, and all modules can run on your personal cloud server.
-
-
-## Sales & Business Tools
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Sales & Business Tools](#sales-business-tools) facilitate the effective management and analysis of sales and business processes.
-
-### Customer Relationship Management (CRM) - Hubspot Alternative
-[Customer Relationship Management (CRM)](#customer-relationship-management-crm)
-
-- [Erxes](https://erxes.io/install/) - Marketing, sales, and customer service platform designed to help businesses attract more engaged customers. ([Source Code](https://github.com/erxes/erxes)) `GPL-3.0` `Docker`
-
-
-### Business Intelligence and Analytics
-[Business Intelligence and Analytics](#business-intelligence-and-analytics)
+### Business Intelligence
 
 - [Metabase](https://metabase.com/) - Easy, open-source way for everyone in your company to ask questions and learn from data. ([Source Code](https://github.com/metabase/metabase)) `AGPL-3.0` `Java/Docker`
 
+### Customer Relationship Management (CRM)
+*Hubspot and Salesforce Alternatives*
 
-## Testing & Experimentation
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[Testing & Experimentation](#testing-experimentation) support the validation and optimization of user experiences.
-
-### Feature Flags Implementation
-[Feature Flags Implementation](#feature-flags-implementation)
-- [Placeholder](#) - Placeholder for Optimizely Alternatives.
-
-### A/B Testing
-[A/B Testing](#ab-testing)
-- [Placeholder](#) - Placeholder.
-
-### Data Analysis
-[Data Analysis](#data-analysis)
-- [Placeholder](#) - Placeholder.
-
-## User Research Tools
-
-[`^        back to top        ^`](#awesome-selfhosted-product)
-
-[User Research Tools](#user-research-tools) enable insights into user behavior and preferences.
-- [Placeholder](#) - Placeholder for Miro Alternatives.
+- [Erxes](https://erxes.io/install/) - Marketing, sales, and customer service platform designed to help businesses attract more engaged customers. ([Source Code](https://github.com/erxes/erxes)) `GPL-3.0` `Docker`
+- [odoo](https://www.odoo.com/) - The only platform you will ever need to help run your business: integrated apps, kept simple, and loved by millions of happy users. ([Source Code](https://github.com/odoo/odoo)) `GPL-3.0` `Docker`
 
 ## UX Design Tools
 
-[`^        back to top        ^`](#awesome-selfhosted-product)
+### Image Optimization
 
-[UX Design Tools](#ux-design-tools) facilitate the design and testing of user interfaces.
-
-### Wireframe Tools
-[Wireframe Tools](#wireframe-tools)
-- [Placeholder](#) - Placeholder for Figma Alternatives
+- [imgproxy](https://imgproxy.net/) - Fast and secure standalone server for resizing and converting remote images. ([Source Code](https://github.com/imgproxy/imgproxy)) `MIT` `Docker`
