@@ -27,9 +27,10 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
   - [Community Discussion Platforms](#community-discussion-platforms)
 - [Developer Tools](#developer-tools)
   - [API Development](#api-development)
+  - [Pluggable Components](#pluggable-components)
   - [Software Development Kits (SDK)](#software-development-kits)
 - [Idea Management Software](#idea-management-software)
-  - [Document Management](#document-management)
+  - [Document Management (DMS)](#document-management)
   - [Notetaking](#notetaking)
   - [Second Brain Tools](#second-brain-tools)
 - [Machine Learning](#machine-learning)
@@ -41,32 +42,33 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
   - [Kanban Boards](#kanban-boards)
 - [Rapid Development Tools (Low Code/No Code)](#rapid-development-tools)
   - [Backend Database UI Tools](#backend-database-ui-tools)
-  - [Blog Builders](#blog-builders)
-  - [Content Management Systems (CMS)](#content-management-systems)
-  - [E-commerce Platforms](#e-commerce-platforms)
-  - [Pluggable Application Components](#pluggable-application-components)
-  - [Web App Builders](#web-app-builders)
   - [Workflow Automation](#workflow-automation)
 - [Sales and Business Tools](#sales-and-business-tools)
   - [Business Intelligence](#business-intelligence)
   - [Customer Relationship Management (CRM)](#customer-relationship-management-crm)
-- [UX Design Tools](#ux-design-tools)
+- [Web Dev Tools](#web-dev-tools)
+  - [Blog Builders](#blog-builders)
+  - [Content Management Systems (CMS)](#content-management-systems)
+  - [E-commerce Platforms](#e-commerce-platforms)
   - [Image Optimization](#image-optimization)
+  - [Web App Builders](#web-app-builders)
 
 --------------------
 
 ## Analytics Tools
 
 ### Product Analytics
+*Mixpanel, LaunchDarkly, and HotJar Alternatives*
 
-- [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/Countly/countly-server)) `AGPL-3.0` `Docker/Nodejs`
 - [PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host (alternative to Mixpanel/Amplitude/Heap/HotJar/Optimizely). ([Source Code](https://github.com/posthog/posthog)) `MIT` `Docker/Python`
 - [OpenReplay](https://openreplay.com/) - Developer-friendly, self-hosted session replay. ([Source Code](https://github.com/openreplay/openreplay)) `MIT` `Python`
 
 ### Web Traffic Analytics
+*Google Analytics Alternatives*
 
 - [Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. ([Demo](http://demo.ackee.electerious.com), [Source Code](https://github.com/electerious/Ackee)) `MIT` `Nodejs/Docker/K8S`
 - [Aptabase](https://aptabase.com/) - Open source, privacy first and simple analytics for mobile and desktop apps. ([Source Code](https://github.com/aptabase/aptabase)) `AGPL-3.0` `Docker`
+- [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/Countly/countly-server)) `AGPL-3.0` `Docker/Nodejs`
 - [Fathom Lite](https://github.com/usefathom/fathom) - A simple and privacy-focused web analytics (alternative to Google Analytics). `MIT` `Go/Docker`
 - [GoatCounter](https://www.goatcounter.com) - Easy web statistics without tracking of personal data. ([Source Code](https://github.com/arp242/goatcounter)) `EUPL-1.2` `Go`
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy. ([Source Code](https://github.com/matomo-org/matomo)) `GPL-3.0` `PHP`
@@ -97,6 +99,11 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 
 - [Hoppscotch](https://hoppscotch.io/) - 👽 Open source API development ecosystem. ([Source Code](https://github.com/hoppscotch/hoppscotch)) `MIT` `Docker`
 
+### Pluggable Components
+
+- [react-trello](https://github.com/rcdexta/react-trello) - Pluggable components to add a kanban board to your application.
+- [Privoce](https://privoce.com/) - Provides the chat, widget (browser), bot components to you as SDKs, and all modules can run on your personal cloud server.
+
 ### Software Development Kits
 
 - [Apprise](https://hub.docker.com/r/caronc/apprise) - Push Notifications that work with just about every platform! ([Source Code](https://github.com/caronc/apprise)) `MIT` `Python/Docker`
@@ -104,6 +111,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 ## Idea Management Software
 
 ### Document Management
+*Paperwork and Docspell Alternatives*
 
 - [Teedy](https://teedy.io/) - Lightweight document management system packed with all the features you can expect from big expensive solutions (Ex SismicsDocs). ([Demo](https://demo.teedy.io/), [Source Code](https://github.com/sismics/docs)) `GPL-2.0` `Docker/Java`
 
@@ -113,6 +121,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Notesnook](https://notesnook.com/) - Open source. End-to-end encrypted. Write notes with privacy, no spying, no tracking. ([Source Code](https://github.com/streetwriters/notesnook)) `GNU-3.0` `React`
 
 ### Second Brain Tools
+*Obsidian, Roam Research, Reflect Alternatives*
 
 - [Quivr](https://www.quivr.app/) - 🧠 Your Second Brain supercharged by Generative AI 🧠. Dump files and chat with a personal assistant using GPT 3.5/4, Private, Anthropic, VertexAI, LLMs. ([Source Code](https://github.com/StanGirard/quivr)) `GNU-3.0` `Docker`
 
@@ -145,8 +154,6 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [uourls](https://yourls.org/) - The de facto standard self hosted URL shortener in PHP. ([Source Code](https://github.com/YOURLS/YOURLS)) `MIT` `PHP/Docker`
 
 ## Project Management
-
-[Project Management](#project-management) tools assist teams in organizing tasks, managing projects, and ensuring efficient team collaboration.
 
 ### Task and Ticketing Systems
 *Jira, ClickUp, and Linear Alternatives*
@@ -184,38 +191,6 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Grist](https://getgrist.com/) - Grist is a next-generation spreadsheet with relational structure, formula-based access control, and a portable, self-contained format (alternative to Airtable). ([Demo](https://docs.getgrist.com), [Source Code](https://github.com/gristlabs/grist-core)) `Apache-2.0` `Nodejs/Python`
 - [Chartbrew](https://chartbrew.com) - Web application that can connect directly to databases and APIs and use the data to create beautiful charts. ([Demo](https://app.chartbrew.com/live-demo), [Source Code](https://github.com/chartbrew/chartbrew)) `MIT` `Nodejs/Docker`
 
-### Blog Builders
-*Medium Alternatives*
-
-- [btw](https://www.btw.so/) - Set up your personal blog in minutes.
-
-### Content Management Systems
-
-- [Tina](https://tina.io/) - Tina is a fully open-source headless CMS that supports Git.
-- [Payload CMS](https://payloadcms.com/) - Developer-first headless CMS and application framework. ([Demo](https://demo.payloadcms.com), [Source Code](https://github.com/payloadcms/payload)) `MIT` `Nodejs`
-- [Cromwell CMS](https://cromwellcms.com/) - Cromwell CMS is a next-gen e-commerce and blogging platform that unites bleeding-edge web techs in an extraordinary user-friendly format.
-- [Wagtail](https://wagtail.io/) - Django content management system focused on flexibility and user experience. ([Source Code](https://github.com/wagtail/wagtail)) `BSD-3-Clause` `Python`
-
-### E-commerce Platforms
-
-- [Evershop](https://evershop.io/) - NodeJS E-commerce Platform.
-- [Bagisto](https://bagisto.com/en/) - Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. ([Demo](https://demo.bagisto.com/), [Source Code](https://github.com/bagisto/bagisto)) `MIT` `PHP`
-
-### Pluggable Application Components
-
-- [react-trello](https://github.com/rcdexta/react-trello) - Pluggable components to add a kanban board to your application.
-- [Privoce](https://privoce.com/) - Provides the chat, widget (browser), bot components to you as SDKs, and all modules can run on your personal cloud server.
-
-
-### Web App Builders
-*Webflow, Retool and Softr Alternatives*
-
-- [Budibase](https://www.budibase.com) - Build and automate internal tools, admin panels, dashboards, CRUD apps, and more, in minutes (alternative to Outsystems, Retool, Mendix, Appian). ([Source Code](https://github.com/Budibase/budibase)) `GPL-3.0` `Nodejs`
-- [NocoBase](https://www.nocobase.com/) - NocoBase is a scalability-first, open-source no-code/low-code platform.
-- [Convertigo](https://www.convertigo.com/) - Enterprise grade Low Code / No Code platform.
-- [Saltcorn](https://github.com/saltcorn/saltcorn) - Free and open source no-code application builder.
-- [OpenBlocks](https://github.com/openblocks-dev/openblocks) - Open Source Retool Alternative.
-
 ### Workflow Automation
 *Make, IFTTT, Zapier Alternatives*
 
@@ -243,8 +218,36 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Erxes](https://erxes.io/install/) - Marketing, sales, and customer service platform designed to help businesses attract more engaged customers. ([Source Code](https://github.com/erxes/erxes)) `GPL-3.0` `Docker`
 - [odoo](https://www.odoo.com/) - The only platform you will ever need to help run your business: integrated apps, kept simple, and loved by millions of happy users. ([Source Code](https://github.com/odoo/odoo)) `GPL-3.0` `Docker`
 
-## UX Design Tools
+## Web Dev Tools
+
+### Blog Builders
+*Medium Alternatives*
+
+- [btw](https://www.btw.so/) - Set up your personal blog in minutes.
+
+### Content Management Systems
+*Wordpress and Wix Alternatives*
+
+- [Tina](https://tina.io/) - Tina is a fully open-source headless CMS that supports Git.
+- [Payload CMS](https://payloadcms.com/) - Developer-first headless CMS and application framework. ([Demo](https://demo.payloadcms.com), [Source Code](https://github.com/payloadcms/payload)) `MIT` `Nodejs`
+- [Cromwell CMS](https://cromwellcms.com/) - Cromwell CMS is a next-gen e-commerce and blogging platform that unites bleeding-edge web techs in an extraordinary user-friendly format.
+- [Wagtail](https://wagtail.io/) - Django content management system focused on flexibility and user experience. ([Source Code](https://github.com/wagtail/wagtail)) `BSD-3-Clause` `Python`
+
+### E-commerce Platforms
+*WooCommerce, Squarespace, and Shopify Alternatives*
+
+- [Evershop](https://evershop.io/) - NodeJS E-commerce Platform.
+- [Bagisto](https://bagisto.com/en/) - Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. ([Demo](https://demo.bagisto.com/), [Source Code](https://github.com/bagisto/bagisto)) `MIT` `PHP`
 
 ### Image Optimization
 
 - [imgproxy](https://imgproxy.net/) - Fast and secure standalone server for resizing and converting remote images. ([Source Code](https://github.com/imgproxy/imgproxy)) `MIT` `Docker`
+
+### Web App Builders
+*Webflow, Retool and Softr Alternatives*
+
+- [Budibase](https://www.budibase.com) - Build and automate internal tools, admin panels, dashboards, CRUD apps, and more, in minutes (alternative to Outsystems, Retool, Mendix, Appian). ([Source Code](https://github.com/Budibase/budibase)) `GPL-3.0` `Nodejs`
+- [NocoBase](https://www.nocobase.com/) - NocoBase is a scalability-first, open-source no-code/low-code platform.
+- [Convertigo](https://www.convertigo.com/) - Enterprise grade Low Code / No Code platform.
+- [Saltcorn](https://github.com/saltcorn/saltcorn) - Free and open source no-code application builder.
+- [OpenBlocks](https://github.com/openblocks-dev/openblocks) - Open Source Retool Alternative.
