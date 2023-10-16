@@ -251,6 +251,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 ### Business Intelligence
 
 - [Metabase](https://metabase.com/) - Easy, open-source way for everyone in your company to ask questions and learn from data. ([Source Code](https://github.com/metabase/metabase)) `AGPL-3.0` `Java/Docker`
+- [Technical Writing on HubSpot]([https://metabase.com/](https://github.com/crate-workbench/hubspot-tech-writing)) - Support writing technical documentation on HubSpot.
 
 ### Customer Relationship Management (CRM)
 *Hubspot and Salesforce Alternatives*
