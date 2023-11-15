@@ -194,10 +194,9 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Kanboard](https://kanboard.org/) - Simple and visual task board. ([Source Code](https://github.com/kanboard/kanboard)) `MIT` `PHP`
 - [Lavagna](https://lavagna.io) - An issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use. ([Source Code](https://github.com/digitalfondue/lavagna)) `GPL-3.0` `Java`
 - [Planka](https://planka.app/) - The realtime kanban board for workgroups built with React and Redux. ([Demo](https://plankanban.github.io/planka/#/), [Source Code](https://github.com/plankanban/planka)) `AGPL-3.0` `Nodejs`
-- [Restyaboard](https://github.com/RestyaPlatform/board) - Trello like kanban board. Based on Restya platform. `OSL-3` `Docker/Golang`
 - [Taiga](https://www.taiga.io/) - Agile Project Management Tool based on the Kanban and Scrum methods. ([Source Code](https://github.com/kaleidos-ventures)) `MPL-2.0` `Docker/Python/Nodejs`
 - [TaskCafe](https://github.com/JordanKnott/taskcafe) - A project management tool with Kanban boards. `MIT` `Docker/Golang`
-- [Wekan](https://wekan.github.io/) - Open-source Trello-like kanban. ([Source Code](https://github.com/wekan/wekan)) `MIT` `Nodejs`
+- [WeKan](https://wekan.github.io/) - Open-source Trello-like kanban. ([Source Code](https://github.com/wekan/wekan)) `MIT` `Nodejs`
 
 ## Rapid Development Tools
 *Low Code/No Code*
