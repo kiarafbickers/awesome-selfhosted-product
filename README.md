@@ -131,6 +131,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 
 - [Apprise](https://hub.docker.com/r/caronc/apprise) - Push Notifications that work with just about every platform! ([Source Code](https://github.com/caronc/apprise)) `MIT` `Python/Docker`
 - [pycaret](www.pycaret.org) - An open-source, low-code machine learning library in Python. ([Source Code](https://github.com/pycaret/pycaret)) `MIT` `Docker`
+- [Auto 1111 SDK](https://github.com/saketh12/Auto1111SDK) - An open-source Python library to run generative AI Image models. ([Source Code](https://github.com/saketh12/Auto1111SDK)) `AGPL-3.0` `Python`
 
 ### Uptime Monitoring
 *Uptime Robot Alternatives*
