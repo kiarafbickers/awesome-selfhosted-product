@@ -126,6 +126,9 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 
 - [lago](https://www.getlago.com/) - Scalable and modular architecture for metering and usage-based billing, at every stage of your company. [Source Code](https://github.com/getlago/lago)) `AGPL-3.0` `Shell`
 
+### Dev Environment Management
+
+- [Daytona](https://daytona.io/) - The Open Source Dev Environment Manager. ([Source Code](https://github.com/daytonaio/daytona)) `Apache-2.0` `Docker/Go`
 
 ### Software Development Kits
 
