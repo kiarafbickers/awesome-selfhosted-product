@@ -32,6 +32,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
   - [App Performance Monitoring](#app-performance-monitoring)
   - [Big Data](#big-data)
   - [Billing](#billing)
+  - [LLM Observability](#llm-observability)
   - [Pluggable Components](#pluggable-components)
   - [Software Development Kits (SDK)](#software-development-kits)
   - [Uptime Monitoring](#uptime-monitoring)
@@ -113,6 +114,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 
 - [Uptrace](https://uptrace.dev/) - An OpenTelemetry-based observability platform that helps you monitor, understand, and optimize complex distributed systems. Have confidence in your production and deliver better code faster than ever before. ([Source Code](https://github.com/uptrace/uptrace)) `Business Source License 1.1` `Go`
 
+
 ### API Development
 *Postman Alternatives*
 
@@ -125,6 +127,11 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 ### Billing
 
 - [lago](https://www.getlago.com/) - Scalable and modular architecture for metering and usage-based billing, at every stage of your company. [Source Code](https://github.com/getlago/lago)) `AGPL-3.0` `Shell`
+
+### LLM Observability
+*LangSmith Alternatives*
+
+- [Helicone](https://helicone.ai/) - Open-source LLM monitoring platform for logging, debugging and improving your AI apps. ([Source Code](https://github.com/Helicone/helicone))
 
 
 ### Software Development Kits
