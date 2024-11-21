@@ -50,6 +50,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
   - [Web App Builders](#web-app-builders)
   - [Workflow Automation](#workflow-automation)
 - [Sales and Business Tools](#sales-and-business-tools)
+  - [Applicant Tracking System](#applicant-tracking-system)
   - [Business Intelligence](#business-intelligence)
   - [Customer Relationship Management (CRM)](#customer-relationship-management-crm)
 - [Web Dev Tools](#web-dev-tools)
@@ -246,6 +247,10 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Syndesis](https://syndesis.io/) - Integration capabilities as a service.
 
 ## Sales and Business Tools
+
+### Applicant Tracking System
+
+- [FreeATS](https://www.freeats.com/) - An open source applicant tracking system. FreeATS provides job posting and management, resume parsing and storage, candidate tracking with interaction history, feedback and rating systems for candidates. ([Source Code](https://github.com/freeats/freeats/)) `MIT` `Ruby`
 
 ### Business Intelligence
 
