@@ -271,6 +271,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 - [Cromwell CMS](https://cromwellcms.com/) - Cromwell CMS is a next-gen e-commerce and blogging platform that unites bleeding-edge web techs in an extraordinary user-friendly format.
 - [Payload CMS](https://payloadcms.com/) - Developer-first headless CMS and application framework. ([Demo](https://demo.payloadcms.com), [Source Code](https://github.com/payloadcms/payload)) `MIT` `Nodejs`
 - [Tina](https://tina.io/) - Tina is a fully open-source headless CMS that supports Git.
+- [UnfoldCMS](https://unfoldcms.com/) - Self-hosted Laravel 12 CMS with React 19 + shadcn/ui admin, REST API v1, HMAC-signed webhooks, and headless mode for Next.js, Astro, SvelteKit, and Nuxt. One-time pricing. ([Demo](https://demo.unfoldcms.com), [Source Code](https://github.com/hpakdaman/unfoldcms))
 - [Wagtail](https://wagtail.io/) - Django content management system focused on flexibility and user experience. ([Source Code](https://github.com/wagtail/wagtail)) `BSD-3-Clause` `Python`
 
 ### E-commerce Platforms
