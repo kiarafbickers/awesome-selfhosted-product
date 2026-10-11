@@ -121,6 +121,7 @@ The Awesome Self-hosted Product is a toolkit for makers to ship better products 
 ### Big Data
 
 - [Cube](https://cube.dev/) - The Semantic Layer for Building Data Applications. [Source Code](https://github.com/cube-js/cube)) `MIT` `Nodejs/Docker/K8S`
+- [OLake](https://olake.io/) - Replicate Postgres, MySQL, MongoDB, Oracle, SQL Server and Kafka into Apache Iceberg with CDC, via CLI or a web UI. [Source Code](https://github.com/datazip-inc/olake) `Apache-2.0` `Go/Docker/K8S`
 
 ### Billing
 
